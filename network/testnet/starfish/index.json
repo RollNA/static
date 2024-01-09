@@ -1,5 +1,5 @@
 {
-  "Main": {
+  "sepolia": {
     "NetworkName": "Sepolia",
     "ChainId": 11155111,
     "Explorer": "https://sepolia.etherscan.io",
@@ -13,8 +13,8 @@
       "ZkEVMWrapper": "0x0f04f8434bac2e1db8fca8a34d3e177b6c7ccaba"
     }
   },
-  "zkEVM": {
-    "NetworkName": "Starfish",
+  "cycle": {
+    "NetworkName": "cycle",
     "ChainId": 2442,
     "RPC": "https://rpc.cardona.zkevm-rpc.com",
     "Explorer": "https://explorer-ui.cardona.zkevm-rpc.com",
