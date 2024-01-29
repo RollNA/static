@@ -11,7 +11,8 @@
       "PolygonZkEVMBridge": "0x3c4541F03eBFe229C0f3308A01bAfD2642Bf919B",
       "PolygonZkEVMBridgeProxy": "0x3c4541F03eBFe229C0f3308A01bAfD2642Bf919B",
       "PolygonZkEVMGlobalExitRootProxy": "0x0761AD996d476bb567f75EE111a2B5DF2c74031C",
-      "ZkEVMWrapper": "0x0f04f8434bac2e1db8fca8a34d3e177b6c7ccaba"
+      "ZkEVMWrapper": "0x0f04f8434bac2e1db8fca8a34d3e177b6c7ccaba",
+      "ZkEVMTokenBridge": "0x8E8292b336C8a1475b66d9F0b12C4B0b607B27E0"
     }
   },
   "mumbai": {
@@ -26,7 +27,8 @@
       "PolygonZkEVMBridge": "0x9991Bb87B93d63ed42320416EFc14BA797586753",
       "PolygonZkEVMBridgeProxy": "0x9991Bb87B93d63ed42320416EFc14BA797586753",
       "PolygonZkEVMGlobalExitRootProxy": "0x96D45Fd2C40d262cb7b6BbB4E277359e2eDBa035",
-      "ZkEVMWrapper": "0x0f04f8434bac2e1db8fca8a34d3e177b6c7ccaba"
+      "ZkEVMWrapper": "0x0f04f8434bac2e1db8fca8a34d3e177b6c7ccaba",
+      "ZkEVMTokenBridge": "0x71Fc6430A02C42EDd159d9342FeaA8C7e15f42Fd"
     }
   },
   "cycle": {
@@ -37,7 +39,8 @@
     "SupportsEIP1559": false,
     "Contracts": {
       "PolygonZkEVMBridge": "0x3c4541F03eBFe229C0f3308A01bAfD2642Bf919B",
-      "PolygonZkEVMGlobalExitRootL2": "0xa40d5f56745a118d0906a34e69aec8c0db1cb8fa"
+      "PolygonZkEVMGlobalExitRootL2": "0xa40d5f56745a118d0906a34e69aec8c0db1cb8fa",
+      "ZkEVMTokenBridge": "0x8E8292b336C8a1475b66d9F0b12C4B0b607B27E0"
     }
   }
 }
