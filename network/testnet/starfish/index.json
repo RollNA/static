@@ -6,29 +6,13 @@
     "Explorer": "https://sepolia.etherscan.io",
     "SupportsEIP1559": true,
     "Contracts": {
-      "PolygonZkEVM": "0x13368cF50Ad5576952Cc52f699016867358BB5Eb",
-      "PolygonZkEVMProxy": "0x13368cF50Ad5576952Cc52f699016867358BB5Eb",
-      "PolygonZkEVMBridge": "0x3c4541F03eBFe229C0f3308A01bAfD2642Bf919B",
-      "PolygonZkEVMBridgeProxy": "0x3c4541F03eBFe229C0f3308A01bAfD2642Bf919B",
-      "PolygonZkEVMGlobalExitRootProxy": "0x0761AD996d476bb567f75EE111a2B5DF2c74031C",
+      "PolygonZkEVM": "0x33CaFa2E5D5167806b236F5BE9734DDce8706BFc",
+      "PolygonZkEVMProxy": "0x33CaFa2E5D5167806b236F5BE9734DDce8706BFc",
+      "PolygonZkEVMBridge": "0x5AD31B262855c1dE6788E5497EC0591D25C9a8c2",
+      "PolygonZkEVMBridgeProxy": "0x5AD31B262855c1dE6788E5497EC0591D25C9a8c2",
+      "PolygonZkEVMGlobalExitRootProxy": "0xeEB7Ec2ED7e875BA607debB5dB32851c281655Ad",
       "ZkEVMWrapper": "0x0f04f8434bac2e1db8fca8a34d3e177b6c7ccaba",
-      "ZkEVMTokenBridge": "0x8E8292b336C8a1475b66d9F0b12C4B0b607B27E0"
-    }
-  },
-  "mumbai": {
-    "NetworkName": "mumbai",
-    "ChainId": 80001,
-    "RPC": "https://polygon-mumbai.blockpi.network/v1/rpc/public",
-    "Explorer": "https://mumbai.polygonscan.com/",
-    "SupportsEIP1559": true,
-    "Contracts": {
-      "PolygonZkEVM": "0x0761AD996d476bb567f75EE111a2B5DF2c74031C",
-      "PolygonZkEVMProxy": "0x0761AD996d476bb567f75EE111a2B5DF2c74031C",
-      "PolygonZkEVMBridge": "0x9991Bb87B93d63ed42320416EFc14BA797586753",
-      "PolygonZkEVMBridgeProxy": "0x9991Bb87B93d63ed42320416EFc14BA797586753",
-      "PolygonZkEVMGlobalExitRootProxy": "0x96D45Fd2C40d262cb7b6BbB4E277359e2eDBa035",
-      "ZkEVMWrapper": "0x0f04f8434bac2e1db8fca8a34d3e177b6c7ccaba",
-      "ZkEVMTokenBridge": "0x71Fc6430A02C42EDd159d9342FeaA8C7e15f42Fd"
+      "ZkEVMTokenBridge": "0x0fDf57281a3a462bA7f28cb9aee83c0795b14ad1"
     }
   },
   "cycle": {
@@ -38,9 +22,41 @@
     "Explorer": "https://explorer-testnet.cyclenetwork.io",
     "SupportsEIP1559": false,
     "Contracts": {
-      "PolygonZkEVMBridge": "0x3c4541F03eBFe229C0f3308A01bAfD2642Bf919B",
+      "PolygonZkEVMBridge": "0x5AD31B262855c1dE6788E5497EC0591D25C9a8c2",
       "PolygonZkEVMGlobalExitRootL2": "0xa40d5f56745a118d0906a34e69aec8c0db1cb8fa",
-      "ZkEVMTokenBridge": "0x8E8292b336C8a1475b66d9F0b12C4B0b607B27E0"
+      "ZkEVMTokenBridge": "0x0fDf57281a3a462bA7f28cb9aee83c0795b14ad1"
+    }
+  },
+  "mumbai": {
+    "NetworkName": "mumbai",
+    "ChainId": 80001,
+    "RPC": "https://polygon-mumbai.blockpi.network/v1/rpc/public",
+    "Explorer": "https://mumbai.polygonscan.com/",
+    "SupportsEIP1559": true,
+    "Contracts": {
+      "PolygonZkEVM": "0x417366B290E9227d1baF0A2e81b8B5AbdDE9844A",
+      "PolygonZkEVMProxy": "0x417366B290E9227d1baF0A2e81b8B5AbdDE9844A",
+      "PolygonZkEVMBridge": "0x87D6c7Aa1d5771A57F19FBAEf093b7Bcbc6560C7",
+      "PolygonZkEVMBridgeProxy": "0x87D6c7Aa1d5771A57F19FBAEf093b7Bcbc6560C7",
+      "PolygonZkEVMGlobalExitRootProxy": "0xd1F7D8d1105Fe2066b2F5f4B1d08402523a99319",
+      "ZkEVMWrapper": "0x0f04f8434bac2e1db8fca8a34d3e177b6c7ccaba",
+      "ZkEVMTokenBridge": "0xC9CCE3EbF780C9C990758551ecf048B988A10E81"
+    }
+  },
+  "amoy": {
+    "NetworkName": "amoy",
+    "ChainId": 80002,
+    "RPC": "https://rpc-amoy.polygon.technology",
+    "Explorer": "https://amoy.polygonscan.com/",
+    "SupportsEIP1559": true,
+    "Contracts": {
+      "PolygonZkEVM": "0x45a2F63E4F5e05EF2ee900afc020f36Fe03fFBBC",
+      "PolygonZkEVMProxy": "0x45a2F63E4F5e05EF2ee900afc020f36Fe03fFBBC",
+      "PolygonZkEVMBridge": "0x877712b5e6dcf5f9F45202AfA35357Ae7297D93b",
+      "PolygonZkEVMBridgeProxy": "0x877712b5e6dcf5f9F45202AfA35357Ae7297D93b",
+      "PolygonZkEVMGlobalExitRootProxy": "0x297F9E4F4484AF402B270E59ca1EEEd1bf29b8D3",
+      "ZkEVMWrapper": "0x0f04f8434bac2e1db8fca8a34d3e177b6c7ccaba",
+      "ZkEVMTokenBridge": "0x085395f50A1cc9eD9aAb180ffE6B70969B356057"
     }
   }
 }
