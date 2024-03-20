@@ -43,20 +43,52 @@
       "ZkEVMTokenBridge": "0xC9CCE3EbF780C9C990758551ecf048B988A10E81"
     }
   },
-  "amoy": {
-    "NetworkName": "amoy",
-    "ChainId": 80002,
-    "RPC": "https://rpc-amoy.polygon.technology",
-    "Explorer": "https://amoy.polygonscan.com/",
+  "arbi-sepolia": {
+    "NetworkName": "arbi-sepolia",
+    "ChainId": 421614,
+    "RPC": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public ",
+    "Explorer": "https://sepolia.arbiscan.io/",
     "SupportsEIP1559": true,
     "Contracts": {
-      "PolygonZkEVM": "0x45a2F63E4F5e05EF2ee900afc020f36Fe03fFBBC",
-      "PolygonZkEVMProxy": "0x45a2F63E4F5e05EF2ee900afc020f36Fe03fFBBC",
-      "PolygonZkEVMBridge": "0x877712b5e6dcf5f9F45202AfA35357Ae7297D93b",
-      "PolygonZkEVMBridgeProxy": "0x877712b5e6dcf5f9F45202AfA35357Ae7297D93b",
-      "PolygonZkEVMGlobalExitRootProxy": "0x297F9E4F4484AF402B270E59ca1EEEd1bf29b8D3",
+      "PolygonZkEVM": "0xa04066774C8AbC812757E0511a8Ef05bc4545574",
+      "PolygonZkEVMProxy": "0xa04066774C8AbC812757E0511a8Ef05bc4545574",
+      "PolygonZkEVMBridge": "0x3FAe30E7112C5a4658f74Cdeb8AbFc01270eC783",
+      "PolygonZkEVMBridgeProxy": "0x3FAe30E7112C5a4658f74Cdeb8AbFc01270eC783",
+      "PolygonZkEVMGlobalExitRootProxy": "0x8D5e3538FB0aba25564F3C3727D27a2a7864C25E",
       "ZkEVMWrapper": "0x0f04f8434bac2e1db8fca8a34d3e177b6c7ccaba",
-      "ZkEVMTokenBridge": "0x085395f50A1cc9eD9aAb180ffE6B70969B356057"
+      "ZkEVMTokenBridge": "0x7F4458e930E4a069368a71d7fBEC679087690A53"
+    }
+  },
+  "op-sepolia": {
+    "NetworkName": "op-sepolia",
+    "ChainId": 11155420,
+    "RPC": "https://optimism-sepolia.blockpi.network/v1/rpc/public",
+    "Explorer": "https://sepolia-optimism.etherscan.io/",
+    "SupportsEIP1559": true,
+    "Contracts": {
+      "PolygonZkEVM": "0x0761AD996d476bb567f75EE111a2B5DF2c74031C",
+      "PolygonZkEVMProxy": "0x0761AD996d476bb567f75EE111a2B5DF2c74031C",
+      "PolygonZkEVMBridge": "0xBC1dCA6Fd42563C04cc0EF5c5509f08481e9cFA1",
+      "PolygonZkEVMBridgeProxy": "0xBC1dCA6Fd42563C04cc0EF5c5509f08481e9cFA1",
+      "PolygonZkEVMGlobalExitRootProxy": "0x96D45Fd2C40d262cb7b6BbB4E277359e2eDBa035",
+      "ZkEVMWrapper": "0x0f04f8434bac2e1db8fca8a34d3e177b6c7ccaba",
+      "ZkEVMTokenBridge": "0x5334C450c64bD711C5CE8eF1F310907Ff8f9a773"
+    }
+  },
+  "op-bnb-testnet": {
+    "NetworkName": "op-bnb-testnet",
+    "ChainId": 5611,
+    "RPC": "https://opbnb-testnet-rpc.bnbchain.org",
+    "Explorer": "https://testnet.opbnbscan.com/",
+    "SupportsEIP1559": true,
+    "Contracts": {
+      "PolygonZkEVM": "0x0761AD996d476bb567f75EE111a2B5DF2c74031C",
+      "PolygonZkEVMProxy": "0x0761AD996d476bb567f75EE111a2B5DF2c74031C",
+      "PolygonZkEVMBridge": "0x1cA44239869a2786cc649411E40E83D26757F448",
+      "PolygonZkEVMBridgeProxy": "0x1cA44239869a2786cc649411E40E83D26757F448",
+      "PolygonZkEVMGlobalExitRootProxy": "0x96D45Fd2C40d262cb7b6BbB4E277359e2eDBa035",
+      "ZkEVMWrapper": "0x0f04f8434bac2e1db8fca8a34d3e177b6c7ccaba",
+      "ZkEVMTokenBridge": "0xBda15357d3A325Ffd7312d1FeC5B9788a66E0b40"
     }
   }
 }
