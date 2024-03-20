@@ -1,5 +1,6 @@
 {
   "sepolia": {
+    "NetworkId": 0,
     "NetworkName": "sepolia",
     "ChainId": 11155111,
     "RPC": "https://rpc.sepolia.org",
@@ -16,6 +17,7 @@
     }
   },
   "cycle": {
+    "NetworkId": 1,
     "NetworkName": "cycle",
     "ChainId": 1221,
     "RPC": "https://rpc-testnet.cyclenetwork.io",
@@ -28,6 +30,7 @@
     }
   },
   "mumbai": {
+    "NetworkId": 2,
     "NetworkName": "mumbai",
     "ChainId": 80001,
     "RPC": "https://polygon-mumbai.blockpi.network/v1/rpc/public",
@@ -44,6 +47,7 @@
     }
   },
   "arbi-sepolia": {
+    "NetworkId": 4,
     "NetworkName": "arbi-sepolia",
     "ChainId": 421614,
     "RPC": "https://arbitrum-sepolia.blockpi.network/v1/rpc/public ",
@@ -60,6 +64,7 @@
     }
   },
   "op-sepolia": {
+    "NetworkId": 5,
     "NetworkName": "op-sepolia",
     "ChainId": 11155420,
     "RPC": "https://optimism-sepolia.blockpi.network/v1/rpc/public",
@@ -76,6 +81,7 @@
     }
   },
   "op-bnb-testnet": {
+    "NetworkId": 6,
     "NetworkName": "op-bnb-testnet",
     "ChainId": 5611,
     "RPC": "https://opbnb-testnet-rpc.bnbchain.org",
